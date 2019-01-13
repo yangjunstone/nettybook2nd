@@ -1,0 +1,11 @@
+syntax = "proto3";
+package ch8;
+
+option java_package = "ch8";
+option java_outer_classname = "SubscribeRespProto";
+
+message SubscribeResp {
+    int32 subReqID = 1;
+    int32 respCode = 2;
+    string desc = 3;
+}
